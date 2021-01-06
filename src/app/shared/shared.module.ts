@@ -7,8 +7,6 @@ import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 
-// widgets
-import { MenuComponent } from './common/menu/menu.component';
 
 // Modules
 import { WidgetsModule } from './common/widgets/widgets.module';
@@ -17,15 +15,12 @@ import { WidgetsModule } from './common/widgets/widgets.module';
   exports: [
     HeaderComponent,
     FooterComponent,
-    MenuComponent,
     WidgetsModule,
     CommonModule,
-    
   ],
   declarations: [
     HeaderComponent,
     FooterComponent,
-    MenuComponent,
   ],
   imports: [
     CommonModule,
