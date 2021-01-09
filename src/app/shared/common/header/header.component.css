@@ -41,6 +41,9 @@ header{
     width: 196.21px;
     height: 62.07px;
 }
+.navbar-brand img:hover {
+    cursor: pointer;
+}
 
 .toggler-icon img {
     top: 25px;
@@ -48,6 +51,10 @@ header{
     width: 25px;
     height: 20px;
     /* background-image: url(/assets/img/Grup18339.svg); */
+}
+
+.toggler-icon img:hover {
+    cursor: pointer;
 }
 
 .collapse .navbar-nav .nav-item .nav-link{
@@ -74,6 +81,7 @@ header{
     color: #FFFFFF;
     border-left: 1px solid;
     margin-left: 15px;
+    height: 35px;
 }
 
 .bg-dark {
