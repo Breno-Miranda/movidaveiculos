@@ -1,0 +1,88 @@
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: transparent !important;
+    border-radius: .25rem;
+}
+
+.breadcrumb-item a {
+    color: #999999;
+}
+
+.breadcrumb-item.active a {
+    color: #F97D00;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    height: 40px;
+}
+
+.card .card-header h5{
+    text-align: left;
+    font: normal normal bold 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #1D1C19;
+    opacity: 1;
+}
+
+.card .card-header .nav .nav-item .nav-link.active{
+    color: #F97D00;
+    text-decoration: underline;
+    margin-top: -9px;
+}
+
+/* filter */
+.filter {
+    border: none;
+}
+
+.filter .card-header{
+    background-color: transparent;
+    border-bottom: 0px solid rgba(0,0,0,.125);
+}
+
+.filter i{
+    color: #F97D00;
+}
+
+.filter strong{
+    text-align: left;
+    font: normal normal bold 14px/16px Roboto;
+    letter-spacing: 0px;
+    color: #1D1C19;
+    opacity: 1;
+}
+
+.filter .over{
+    margin-top: 5%;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 5%;
+    overflow-y: scroll;
+}
+
+.filter .media {
+    width: 67px;
+    height: 67px;
+    float: left;
+    margin-left: 5%;
+    margin: 2%;
+    border: 1px solid rgba(0,0,0,.125); 
+}
+
+
+.filter .media span.title {
+    float: left;
+    word-wrap:break-word
+}
+
+.filter .media span.count {
+    float: left;
+    word-wrap:break-word 
+}
