@@ -67,24 +67,34 @@
     overflow-y: scroll;
 }
 
+/* filter media */
 .filter .media {
-    width: 67px;
-    height: 67px;
+
     float: left;
     margin-left: 5%;
     margin: 2%;
-    border: 1px solid rgba(0,0,0,.125); 
+    width: 67px;
+    height: 67px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 3px;
+    opacity: 1; 
 }
 
 
-.filter .media span.title {
-    float: left;
-    word-wrap:break-word
+.filter .media .logo {
+    width: 67px;
+    
 }
 
-.filter .media span.count {
-    float: left;
-    word-wrap:break-word 
+.filter .media .brand {
+    width: 67px;
+    
+}
+
+.filter .media .amount {
+    width: 67px;
+    
 }
 
 
