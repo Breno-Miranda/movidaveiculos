@@ -7,11 +7,13 @@ import { SharedModule } from '../shared/shared.module';
 
 // component
 import { SiteComponent } from './site/site.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
 
 
 @NgModule({
   declarations: [
     SiteComponent,
+    VehiclesComponent,
   ],
   imports: [
     CommonModule,
