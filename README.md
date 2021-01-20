@@ -1,6 +1,6 @@
 # Movida (angular 11+)
 
-![Movida Veiculos](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbugg.com.br%2F2019%2F11%2F07%2Fresultado-movida-movi3-3t19-movimentando-fortes-numeros%2F&psig=AOvVaw1Z6Bd3k29D3jEOBIYiUon5&ust=1611205435898000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiG9pneqe4CFQAAAAAdAAAAABAD)
+![Movida Veiculos](https://www.escoteirossp.org.br/wp/wp-content/uploads/2020/05/movida.png)
 
 Projeto simples feito com todo amor e carinho.
 
