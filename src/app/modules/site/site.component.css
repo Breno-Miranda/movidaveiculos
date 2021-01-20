@@ -16,43 +16,56 @@
     color: #F97D00;
 }
 
-.card-header {
+/* sidebar card */
+.sidebar .card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0,0,0,.03);
-    border-bottom: 1px solid rgba(0,0,0,.125);
-    height: 40px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
-.card .card-header h5{
+.sidebar .card .card-header h5{
     text-align: left;
     font: normal normal bold 16px/24px Roboto;
     letter-spacing: 0px;
     color: #1D1C19;
+    font-size: 16px;
     opacity: 1;
 }
 
-.card .card-header .nav .nav-item .nav-link.active{
+.sidebar .card-body {
+    padding: .75rem;
+}
+
+.sidebar .card .card-header .nav .nav-item .nav-link.active{
     color: #F97D00;
     text-decoration: underline;
     margin-top: -9px;
 }
 
-/* filter */
-.filter {
+/* sidebar */
+.sidebar #accordion .card {
     border: none;
+    margin-bottom: 2%;
 }
 
-.filter .card-header{
+/* sidebar accordion subcard */
+
+.sidebar  #accordion  .card-header{
     background-color: transparent;
     border-bottom: 0px solid rgba(0,0,0,.125);
 }
 
-.filter i{
-    color: #F97D00;
+.sidebar  #accordion .card-body {
+    padding: 1.75rem;
 }
 
-.filter strong{
+.sidebar i{
+    color: #F97D00;
+    font-size: 24px;
+}
+
+.sidebar strong{
     text-align: left;
     font: normal normal bold 14px/16px Roboto;
     letter-spacing: 0px;
@@ -60,38 +73,23 @@
     opacity: 1;
 }
 
-.filter .over{
+.sidebar .over{
     margin-top: 5%;
     border: 1px solid rgba(0,0,0,.125);
     padding: 5%;
     overflow-y: scroll;
 }
 
-/* filter media */
-.filter .media {
-    width: 67px;
-    height: 67px;
-    float: left;
-    margin-left: 5%;
-    margin: 2%;
-    border: 1px solid rgba(0,0,0,.125); 
-}
+/* sidebar media */
 
-
-.filter .media .logo {
-    width: 67px;
+.sidebar .img-thumbnail .brand-car {
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+    font: normal normal normal 11px/11px Roboto;
     
 }
 
-.filter .media .brand {
-    width: 67px;
-    
-}
-
-.filter .media .amount {
-    width: 67px;
-    
-}
 
 
 /* vehicles */

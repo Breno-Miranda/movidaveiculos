@@ -11,8 +11,8 @@
     </div>
     <div class="col">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="card text-center">
+            <div class="col-lg-4 sidebar">
+                <div class="card">
                     <div class="card-header">
                         <h5 class="pull-left">Filtros</h5>
                         <ul class="nav pull-right">
@@ -22,138 +22,176 @@
                         </ul>
                     </div>
                     <div class="card-body">
-
                         <div id="accordion">
-                            <!-- accord-001 -->
-                            <div class="card filter">
+                            <div class="card">
                                 <div class="card-header" id="headingOne">
-                                    <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                                        aria-controls="collapseOne">
-                                        <i class="fa fa-map-marker fa-2x pull-left"></i>
-                                        <strong>Localização</strong>
-                                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                                    <div class="text-center" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <i class="fa fa-map-marker pull-left"></i>
+                                            </div>
+                                            <div class="col text-center">
+                                                <strong>Localização</strong>
+                                            </div>
+                                            <div class="col-2">
+                                                <i class="fa fa-angle-up pull-right"></i>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                     data-parent="#accordion">
                                     <div class="card-body">
-                                        <input type="text" class="form-control" placeholder="Digite o estado ou cidade">
+                                        <input type="text" class="form-control p-4" placeholder="Digite o estado ou cidade">
                                     </div>
                                 </div>
                             </div>
-                            <!-- accord-001 -->
-                            <!-- accord-002 -->
-                            <div class="card filter">
+                            <hr>
+                            <div class="card">
                                 <div class="card-header" id="headingTwo">
-                                    <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        <i class="fa fa-home fa-2x pull-left"></i>
-                                        <strong>Loja para retirada</strong>
-                                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                                    <div class="text-center" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <i class="fa fa-home pull-left"></i>
+                                            </div>
+                                            <div class="col text-center">
+                                                <strong>Loja para retirada</strong>
+                                            </div>
+                                            <div class="col-2">
+                                                <i class="fa fa-angle-up pull-right"></i>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
                                     <div class="card-body">
-                                        <input type="text" class="form-control" placeholder="Digite o estado ou cidade">
+                                        <input type="text" class="form-control p-4" placeholder="Digite o estado ou cidade">
                                         <div class="over">
                                             <div class="input-group">
-                                                <label for=""><input type="checkbox" name="" id=""> SÃO
+                                                <label for=""><input type="checkbox"> SÃO
                                                     PAULO(10)</label>
                                             </div>
                                             <div class="input-group">
-                                                <label for=""><input type="checkbox" name="" id=""> SÃO
+                                                <label for=""><input type="checkbox"> SÃO
                                                     PAULO(10)</label>
                                             </div>
                                             <div class="input-group">
-                                                <label for=""><input type="checkbox" name="" id=""> SÃO
+                                                <label for=""><input type="checkbox"> SÃO
                                                     PAULO(10)</label>
                                             </div>
                                             <div class="input-group">
-                                                <label for=""><input type="checkbox" name="" id=""> SÃO
+                                                <label for=""><input type="checkbox"> SÃO
                                                     PAULO(10)</label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- accord-002 -->
-                            <!-- accord-003 -->
-                            <div class="card filter">
+                            <hr>
+                            <div class="card">
                                 <div class="card-header" id="headingThree">
-                                    <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        <i class="fa fa-car fa-2x pull-left"></i>
-                                        <strong>Marca do carro</strong>
-                                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                                    <div class="text-center" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <i class="fa fa-car pull-left"></i>
+                                            </div>
+                                            <div class="col text-center">
+                                                <strong>Marca do carro</strong>
+                                            </div>
+                                            <div class="col-2">
+                                                <i class="fa fa-angle-up pull-right"></i>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="collapseThree" class="collapse show" aria-labelledby="headingThree"
                                     data-parent="#accordion">
                                     <div class="card-body">
-                                        <div class="media">
-                                            <div class="logo"></div>
-                                            <div class="brand">marca</div>
-                                            <div class="amount">(10)</div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="logo"></div>
-                                            <div class="brand">marca</div>
-                                            <div class="amount">(10)</div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="logo"></div>
-                                            <div class="brand">marca</div>
-                                            <div class="amount">(10)</div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="logo"></div>
-                                            <div class="brand">marca</div>
-                                            <div class="amount">(10)</div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="logo"></div>
-                                            <div class="brand">marca</div>
-                                            <div class="amount">(10)</div>
-                                        </div>
-                                        <div class="media">
-                                            <div class="logo"></div>
-                                            <div class="brand">marca</div>
-                                            <div class="amount">(10)</div>
+                                        <div class="row">
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/580b585b2edbce24c47b2c18.png" alt="">
+                                                <div class="brand-car">Audi (1)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/Chevrolet-logo-4.png" alt="">
+                                                <div class="brand-car">Chevrolet (2)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/kisspng-fiat-automobiles-car-portable-network-graphics-cli-logofiat-digitalradio-it-5ba3f683d365b4.4808180115374721318659.png" alt="">
+                                                <div class="brand-car">Fiat (1)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/kisspng-ford-motor-company-car-ford-mustang-chrysler-ford-logo-icon-5ab0e2a1028289.5871540215215417930103.png" alt="">
+                                                <div class="brand-car">Ford (2)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/kisspng-hyundai-motor-company-car-kia-motors-logo-hyundai-5ab52c4d924a70.8421347115218227975992.png" alt="">
+                                                <div class="brand-car">Hyundai (2)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/kisspng-jeep-compass-car-chrysler-jeep-logo-5b32ef90d10615.4246318315300647848562.png" alt="">
+                                                <div class="brand-car">Jeep (1)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/mercedes-benz-logo.png" alt="">
+                                                <div class="brand-car">Mercedes (2)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/nissan-logo-0-1.png" alt="">
+                                                <div class="brand-car">Nissan (1)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/kisspng-nissan-logo-car-renault-emblem-japan-impression-5b51d7e4cff371.4391433015320903408518.png" alt="">
+                                                <div class="brand-car">Renault (1)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/5a21ff4d9c4b38.9685477315121774856402.png" alt="">
+                                                <div class="brand-car">Toyota (1)</div>
+                                            </div>
+                                            <div class="col-3 img-thumbnail">
+                                                <img class="img-fluid" src="../../../assets/Grupo de máscara 85.png" alt="">
+                                                <div class="brand-car">Volkswagen (2)</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- accord-003 -->
-                            <!-- accord-004 -->
-                            <div class="card filter">
+                            <hr>
+                            <div class="card">
                                 <div class="card-header" id="headingTwo">
-                                    <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        <i class="fa fa-home fa-2x pull-left"></i>
-                                        <strong>Prazo de entrega</strong>
-                                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                                    <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <i class="fa fa-calendar pull-left"></i>
+                                            </div>
+                                            <div class="col text-center">
+                                                <strong>Prazo de entrega</strong>
+                                            </div>
+                                            <div class="col-2">
+                                                <i class="fa fa-angle-up pull-right"></i>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
                                     data-parent="#accordion">
                                     <div class="card-body">
                                         <div class="input-group">
-                                            <label for=""><input type="checkbox" name="" id=""> SÃO
+                                            <label for=""><input type="checkbox"> SÃO
                                                 PAULO(10)</label>
                                         </div>
                                         <div class="input-group">
-                                            <label for=""><input type="checkbox" name="" id=""> SÃO
+                                            <label for=""><input type="checkbox"> SÃO
                                                 PAULO(10)</label>
                                         </div>
                                         <div class="input-group">
-                                            <label for=""><input type="checkbox" name="" id=""> SÃO
+                                            <label for=""><input type="checkbox"> SÃO
                                                 PAULO(10)</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- accord-004 -->
                         </div>
                     </div>
                 </div>
@@ -167,31 +205,12 @@
                     <div class="row vehicles">
                         <div class="col-lg-4">
                             <div class="card active">
-                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hyundai HB20</h5>
-                                     <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
-                                    
-                                    <div class="card-info">Plano 24 meses</div>
-                                    <div class="card-info">Franquia 1.000 km</div>
-
-                                    <div class="card-money">
-                                        <div class="pre-text">A partir de </div>
-                                        <div class="value"> R$ 899,00 <span class="pos-text">/mês*</span></div>
-                                    </div>
-
-                                    <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
-                                    <a href="#" class="btn btn-primary" [routerLink]="['zerokm', 'detalhes', 'hyundai-hb20' , 'comfort' , '1.0' , 'flex' , '5p' , 'manual']">Eu quero</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png" alt="Card image cap">
+                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png"
+                                    alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Hyundai HB20</h5>
                                     <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
-                                    
+
                                     <div class="card-info">Plano 24 meses</div>
                                     <div class="card-info">Franquia 1.000 km</div>
 
@@ -201,53 +220,20 @@
                                     </div>
 
                                     <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
+                                    <a href="#" class="btn btn-primary"
+                                        [routerLink]="['zerokm', 'detalhes', 'hyundai-hb20' , 'comfort' , '1.0' , 'flex' , '5p' , 'manual']">Eu
+                                        quero</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
-                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png" alt="Card image cap">
-                                <div class="card-body">
-                                     <h5 class="card-title">Hyundai HB20</h5>
-                                     <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
-                                    
-                                    <div class="card-info">Plano 24 meses</div>
-                                    <div class="card-info">Franquia 1.000 km</div>
-
-                                    <div class="card-money">
-                                        <div class="pre-text">A partir de </div>
-                                        <div class="value"> R$ 899,00 <span class="pos-text">/mês*</span></div>
-                                    </div>
-
-                                    <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png" alt="Card image cap">
+                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png"
+                                    alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Hyundai HB20</h5>
-                                     <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
-                                    
-                                    <div class="card-info">Plano 24 meses</div>
-                                    <div class="card-info">Franquia 1.000 km</div>
+                                    <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
 
-                                    <div class="card-money">
-                                        <div class="pre-text">A partir de </div>
-                                        <div class="value"> R$ 899,00 <span class="pos-text">/mês*</span></div>
-                                    </div>
-                                    <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png" alt="Card image cap">
-                                <div class="card-body">
-                                     <h5 class="card-title">Hyundai HB20</h5>
-                                     <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
-                                    
                                     <div class="card-info">Plano 24 meses</div>
                                     <div class="card-info">Franquia 1.000 km</div>
 
@@ -262,11 +248,71 @@
                         </div>
                         <div class="col-lg-4">
                             <div class="card">
-                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png" alt="Card image cap">
+                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png"
+                                    alt="Card image cap">
                                 <div class="card-body">
-                                     <h5 class="card-title">Hyundai HB20</h5>
-                                     <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
-                                    
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
+
+                                    <div class="card-info">Plano 24 meses</div>
+                                    <div class="card-info">Franquia 1.000 km</div>
+
+                                    <div class="card-money">
+                                        <div class="pre-text">A partir de </div>
+                                        <div class="value"> R$ 899,00 <span class="pos-text">/mês*</span></div>
+                                    </div>
+
+                                    <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
+
+                                    <div class="card-info">Plano 24 meses</div>
+                                    <div class="card-info">Franquia 1.000 km</div>
+
+                                    <div class="card-money">
+                                        <div class="pre-text">A partir de </div>
+                                        <div class="value"> R$ 899,00 <span class="pos-text">/mês*</span></div>
+                                    </div>
+                                    <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
+
+                                    <div class="card-info">Plano 24 meses</div>
+                                    <div class="card-info">Franquia 1.000 km</div>
+
+                                    <div class="card-money">
+                                        <div class="pre-text">A partir de </div>
+                                        <div class="value"> R$ 899,00 <span class="pos-text">/mês*</span></div>
+                                    </div>
+
+                                    <div class="card-text">* Nos 3 primeiros meses e R$ 1.099,99 do 4o ao 24o mês</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="../../../assets/img/veiculos/HB20 Hatch.png"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hyundai HB20</h5>
+                                    <div class="card-subtitle">Comfort1.0 Flex 5p Manual</div>
+
                                     <div class="card-info">Plano 24 meses</div>
                                     <div class="card-info">Franquia 1.000 km</div>
 
