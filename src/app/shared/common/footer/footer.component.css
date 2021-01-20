@@ -51,8 +51,66 @@
     font-size: 13px;
 }
 
+/* movida */
+
+
+.footer .movida {
+    margin-top: 5%;
+}
+
+.footer .movida h3{
+    text-align: left;
+    font: normal normal bold 13px/15px Roboto;
+    letter-spacing: 0px;
+    color: #F97D00;
+    opacity: 1;
+}
+
+.footer .movida p{
+    text-align: left;
+    font: normal normal normal 13px/15px Roboto;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+    font-size: 13px;
+}
+
+/* site */
+
+.footer .site {
+    margin-top: 5%;
+}
+
+.footer .site h3{
+    text-align: left;
+    font: normal normal bold 13px/15px Roboto;
+    letter-spacing: 0px;
+    color: #F97D00;
+    opacity: 1;
+}
+
+/* group-img */
+
+.footer .group-img {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
 .nav-footer{
-    height: 69px;
+    height: auto;
     background: #F97D00 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+/* copy */
+
+.nav-footer p{
+    text-align: left;
+    font: normal normal normal 12px/14px Roboto;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 30px;
+    font-size: 12px;
 }
