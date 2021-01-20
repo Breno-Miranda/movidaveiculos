@@ -61,6 +61,22 @@
     font-size: 14px;
 }
 
+.details .sidebar .card-body form .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: transparent !important;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
 .details .sidebar .card-body form .end-plates  {
     width: -webkit-fill-available;
 }
@@ -72,8 +88,107 @@
     border: 1px solid #F97D00;
     border-radius: 5px;
     opacity: 1;
-    margin-left: 5%;
+    margin-left: 4%;
 }
+
+
+.details .sidebar .card-body form .custom-control.custom-radio input {
+    width: 35px;
+    height: 51px;
+    opacity: 1;
+}
+
+.details .sidebar .card-body form .custom-control.custom-radio  {
+    font-size: 12px;
+    width: 47px;
+    height: 48px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.details .sidebar .card-body form .custom-control.custom-radio .custom-control-label::before  {
+    width: 40px;
+    height: 40px;
+    background-color:transparent;
+}
+
+.details .sidebar .card-body form .custom-control.custom-radio input[type='radio']:after {
+    width: 41px;
+    height: 47px;
+    border-radius: 30px;
+    top: 0px;
+    left: -1px;
+    position: relative;
+    background-color: #0d0e0d;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.details .sidebar .card-body form .custom-control.custom-radio input[type='radio']:checked:after {
+    width: 41px;
+    height: 47px;
+    border-radius: 30px;
+    top: 0px;
+    left: -1px;
+    position: relative;
+    background-color: #a00000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.details .sidebar .card-body form  .cor-select {
+    text-align: left;
+    font: normal normal 300 12px/14px Roboto;
+    letter-spacing: 0px;
+    color: #58595B;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.details .sidebar .card-body form .term{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #58595B;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.details .sidebar .card-body form .value p{
+    text-align: left;
+    font: normal normal medium 14px/16px Roboto;
+    letter-spacing: 0px;
+    color: #58595B;
+    opacity: 1;
+}
+.details .sidebar .card-body form .value .text-center{
+    text-align: right;
+    font: normal normal bold 32px/36px Roboto;
+    letter-spacing: 0px;
+    color: #1D1C19;
+    font-size: 32px;
+}
+
+
+.details .sidebar .card-body form .value .text-start{
+    text-align: right;
+    font: normal normal bold 18px/36px Roboto;
+    letter-spacing: 0px;
+    color: #1D1C19;
+    font-size: 18px;
+}
+
+.details .sidebar .card-body form .value .text-end{
+    text-align: right;
+    font: normal normal normal 18px/36px Roboto;
+    letter-spacing: 0px;
+    color: #1D1C19;
+    font-size: 18px;
+}
+
+
 
 .details .sidebar .card-footer {
     background: #DDDDDD 0% 0% no-repeat padding-box;
@@ -134,16 +249,25 @@
     margin-bottom: 5%;
 }
 
-.details .slider .thumbnails {
+.details .slider .img-thumbnail {
     position: relative;
     width: 105px;
     height: 79px;
 }
 
+.details .slider .img-thumbnail.active {
+    border: 1px solid #F97D00;
+    opacity: 1;
+}
+
 .details .slider picture{
     width: 105px;
-    margin-left:11px;
     height: 79px;
+}
+
+.details .slider picture img{
+    width: 76px;
+    height: 57px;
 }
 
 /* information */
