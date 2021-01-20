@@ -1,11 +1,10 @@
 .breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    padding: .75rem 1rem;
-    margin-bottom: 1rem;
-    list-style: none;
     background-color: transparent !important;
-    border-radius: .25rem;
+    text-align: left;
+    font: normal normal normal 12px/14px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 14px;
 }
 
 .breadcrumb-item a {
@@ -99,9 +98,35 @@
 }
 
 /* vehicles */
+
+.vehicles .title-page {
+    text-align: left;
+    font: normal normal medium 24px/28px Roboto;
+    letter-spacing: 0px;
+    color: #58595B;
+    opacity: 1;
+    font-size: 24px;
+}
+
+.vehicles .subtitle-page {
+    text-align: left;
+    font: normal normal 300 14px/16px Roboto;
+    letter-spacing: 0px;
+    color: #58595B;
+    font-size: 14px;
+}
+
+.vehicles .subtitle-page strong {
+    text-align: left;
+    font: normal normal bold 14px/16px Roboto;
+    letter-spacing: 0px;
+    color: #58595B;
+    font-size: 14px;
+}
+
 .vehicles .card {
-    width: 232px;
-    height: 423px;
+    /* width: 232px; */
+    height: auto;
     margin-top: 5%;
     margin-bottom: 5%;
     border: none !important;
@@ -115,7 +140,7 @@
 }
 
 .vehicles .card .btn{
-    width: 200px;
+    width: 100%;
     height: 40px;
     background: #F97D00 0% 0% no-repeat padding-box;
     border-radius: 3px;
@@ -123,12 +148,18 @@
     border: none;
 }
 
+.vehicles .card-img-top img {
+    width: 227px;
+    height: 130px;
+}
+
 .vehicles .card .card-title {
     text-align: left;
-    letter-spacing: NaNpx;
+    font: normal normal bold 18px/20px Roboto;
+    letter-spacing: 0px;
     color: #58595B;
-    text-transform: uppercase;
-    opacity: 1;
+    text-transform: capitalize;
+    font-size: 18px;
 }
 
 .vehicles .card .card-subtitle {

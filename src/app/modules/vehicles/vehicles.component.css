@@ -1,11 +1,10 @@
 .breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    padding: .75rem 1rem;
-    margin-bottom: 1rem;
-    list-style: none;
     background-color: transparent !important;
-    border-radius: .25rem;
+    text-align: left;
+    font: normal normal normal 12px/14px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 14px;
 }
 
 .breadcrumb-item a {
@@ -47,6 +46,7 @@
     letter-spacing: 0px;
     color: #1D1C19;
     opacity: 1;
+    font-size: 28px;
 }
 
 .details .subtitle-page {
@@ -55,6 +55,7 @@
     letter-spacing: 0px;
     color: #58595B;
     opacity: 1;
+    font-size: 17px;
 }
 
 .details .sidebar .card-body form label {
